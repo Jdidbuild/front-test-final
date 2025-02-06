@@ -1,0 +1,20 @@
+[
+    {
+      "student": {
+        "first_name": "Alice",
+        "last_name": "Dupont"
+      },
+      "meeting_point": "Salle A",
+      "date": "2025-02-10",
+      "status": "A organiser"
+    },
+    {
+      "student": {
+        "first_name": "Bob",
+        "last_name": "Martin"
+      },
+      "meeting_point": "Salle B",
+      "date": "2025-02-12",
+      "status": "Confirmé"
+    }
+  ]

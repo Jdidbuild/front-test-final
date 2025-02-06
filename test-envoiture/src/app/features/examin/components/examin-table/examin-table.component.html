@@ -1,0 +1,13 @@
+<table>
+    <tbody>
+        <tr *ngFor="let exam of exams">
+            <td><i class="fas fa-user"></i>{{ exam.student.first_name }} -s {{ exam.student.last_name }}</td>
+            <td><i class="fas fa-map-marker-alt"></i>{{ exam.meeting_point }}</td>
+            <td><i class="fas fa-calendar-alt"></i>{{ exam.date }}</td>
+            <td>
+                <i [ngClass]="getIconClass(exam.status)" class="status-icon"></i>
+                <span class="status-text" [ngClass]="getStatusClass(exam.status)">{{ exam.status }}</span>
+            </td>
+        </tr>
+    </tbody>
+</table>

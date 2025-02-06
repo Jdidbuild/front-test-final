@@ -1,0 +1,78 @@
+.exam-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.exam-list {
+  border-radius: 10px;
+}
+
+
+
+.exam-list {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.2em;
+}
+
+.exam-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.student {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details div {
+  margin-bottom: 5px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0; /* Enlève le margin par défaut du titre */
+}
+
+.header p {
+  margin: 0;
+  font-size: 0.9em; /* Ajuste la taille de la police si nécessaire */
+  color: #666; /* Optionnel : une couleur plus douce pour le texte */
+}
+
+.organize-btn {
+  padding: 8px 16px;
+  background-color: #007bff; /* Exemple de couleur */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.organize-btn:hover {
+  background-color: #0056b3; /* Couleur au survol */
+}
+
+
+
+
+
+
+
+
