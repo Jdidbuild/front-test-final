@@ -23,7 +23,7 @@
       "dom"
     ],
 
-    "types": ["node"],
+    "types": ["node","jasmine"],
     "skipLibCheck": true, // Ce paramètre peut aider à ignorer certains conflits de types dans les dépendances
   },
   "angularCompilerOptions": {
