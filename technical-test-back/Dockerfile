@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Installer les dépendances
-RUN npm install
+RUN npm install --omit=dev
 
 # Copier tout le contenu du dossier backend
 COPY . .
