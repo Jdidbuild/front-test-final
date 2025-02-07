@@ -49,8 +49,8 @@ In this project, we use a Swagger OpenAPI Client that is automatically generated
 
 ## Note
 
--Please note that the CSS in this project has not yet been optimized. 
--Please note that the add functionality POST /api/exams is not yet implemented in this project. It is planned for a future release
+- Please note that the CSS in this project has not yet been optimized. 
+- Please note that the add functionality POST /api/exams is not yet implemented in this project.
 - Comments are missing throughout the project. It is recommended to add comments to improve code readability and understanding.
 - Only one unit test has been written for the `examEffect*` function. It is advised to add more tests to ensure adequate coverage.
 
@@ -59,7 +59,7 @@ In this project, we use a Swagger OpenAPI Client that is automatically generated
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Jdidbuild/front-test-final.git
 
  ```bash
    docker-compose --build
